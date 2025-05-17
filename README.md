@@ -180,7 +180,7 @@ Instead of one global route, this block applies **ACO separately within each KMe
 - `distance_df`, `duration_df`
 - Coordinates and accessibility
 
-📤 Output files:
+### 📤 Output files:
 - `combined_routes_distance.html` – per-cluster shortest routes (color-coded)
 - `combined_routes_duration.html` – per-cluster fastest routes (color-coded)
 
