@@ -1,0 +1,3446 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7dde82766036584f8fbcd293e614341b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7dde82766036584f8fbcd293e614341b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7dde82766036584f8fbcd293e614341b = L.map(
+                "map_7dde82766036584f8fbcd293e614341b",
+                {
+                    center: [43.12980898571429, 25.692947857142855],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4b99145d2519c544c26753093920f2a4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4b99145d2519c544c26753093920f2a4.addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var marker_a71ec1c34dca6936e9bee8e8de02ea9d = L.marker(
+                [43.139388, 25.68202],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_21bbcbe58006d5a15213c03cb71e8127 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e1666682197816da3c4532521b3ab897 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ad60522f338bff912c848f3964aef8b = $(`<div id="html_9ad60522f338bff912c848f3964aef8b" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 1<br>     <b>Име:</b> ЖП гара Горна Оряховица<br>     <b>Достъпност:</b> Да     </div>`)[0];
+                popup_e1666682197816da3c4532521b3ab897.setContent(html_9ad60522f338bff912c848f3964aef8b);
+            
+        
+
+        marker_a71ec1c34dca6936e9bee8e8de02ea9d.bindPopup(popup_e1666682197816da3c4532521b3ab897)
+        ;
+
+        
+    
+    
+            marker_a71ec1c34dca6936e9bee8e8de02ea9d.bindTooltip(
+                `<div>
+                     1 – ЖП гара Горна Оряховица
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a71ec1c34dca6936e9bee8e8de02ea9d.setIcon(icon_21bbcbe58006d5a15213c03cb71e8127);
+            
+    
+            var marker_d543b9daf15267d07ca1b45c68dd664f = L.marker(
+                [43.138868, 25.673411],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_6ba40f1495f294693bc585744fd5ef0c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7fd205cca6c27bf811fcc20d731f20fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_badf02108be87aa0b731810559bec1fd = $(`<div id="html_badf02108be87aa0b731810559bec1fd" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 2<br>     <b>Име:</b> Локомотивно депо<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_7fd205cca6c27bf811fcc20d731f20fa.setContent(html_badf02108be87aa0b731810559bec1fd);
+            
+        
+
+        marker_d543b9daf15267d07ca1b45c68dd664f.bindPopup(popup_7fd205cca6c27bf811fcc20d731f20fa)
+        ;
+
+        
+    
+    
+            marker_d543b9daf15267d07ca1b45c68dd664f.bindTooltip(
+                `<div>
+                     2 – Локомотивно депо
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d543b9daf15267d07ca1b45c68dd664f.setIcon(icon_6ba40f1495f294693bc585744fd5ef0c);
+            
+    
+            var marker_003b62b06bc06d1a41a2222f9af68403 = L.marker(
+                [43.138187, 25.686489],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_7690c6e1be7953d64c16c1221599c5ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2d63bfd1a9586ea67287a9f8e5fcdccf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_583175e11b6adcdbb025e1d4c9db6664 = $(`<div id="html_583175e11b6adcdbb025e1d4c9db6664" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 3<br>     <b>Име:</b> Транспортна болница<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_2d63bfd1a9586ea67287a9f8e5fcdccf.setContent(html_583175e11b6adcdbb025e1d4c9db6664);
+            
+        
+
+        marker_003b62b06bc06d1a41a2222f9af68403.bindPopup(popup_2d63bfd1a9586ea67287a9f8e5fcdccf)
+        ;
+
+        
+    
+    
+            marker_003b62b06bc06d1a41a2222f9af68403.bindTooltip(
+                `<div>
+                     3 – Транспортна болница
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_003b62b06bc06d1a41a2222f9af68403.setIcon(icon_7690c6e1be7953d64c16c1221599c5ab);
+            
+    
+            var marker_9e5b70bb3cc83a7eb69086aebbe49d1f = L.marker(
+                [43.138149, 25.688987],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_3d33aa5a65876c88489a4caaa4c7a40e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7baadef78cc2c81c459f9a4bfc318aff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c54659c269bb182a9755a7f2823e984 = $(`<div id="html_3c54659c269bb182a9755a7f2823e984" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 4<br>     <b>Име:</b> Културен дом<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_7baadef78cc2c81c459f9a4bfc318aff.setContent(html_3c54659c269bb182a9755a7f2823e984);
+            
+        
+
+        marker_9e5b70bb3cc83a7eb69086aebbe49d1f.bindPopup(popup_7baadef78cc2c81c459f9a4bfc318aff)
+        ;
+
+        
+    
+    
+            marker_9e5b70bb3cc83a7eb69086aebbe49d1f.bindTooltip(
+                `<div>
+                     4 – Културен дом
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9e5b70bb3cc83a7eb69086aebbe49d1f.setIcon(icon_3d33aa5a65876c88489a4caaa4c7a40e);
+            
+    
+            var marker_51b54813b4f8ca6d83926c7d0f599b00 = L.marker(
+                [43.136248, 25.692875],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_2a6c865ae2a78da83960cb9ba162f4bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_26350aedf15f787269ef1b8ecc5cf50a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_991223fcf8048531bcf6e5f021089b97 = $(`<div id="html_991223fcf8048531bcf6e5f021089b97" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 5<br>     <b>Име:</b> Спирка ЕКО<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_26350aedf15f787269ef1b8ecc5cf50a.setContent(html_991223fcf8048531bcf6e5f021089b97);
+            
+        
+
+        marker_51b54813b4f8ca6d83926c7d0f599b00.bindPopup(popup_26350aedf15f787269ef1b8ecc5cf50a)
+        ;
+
+        
+    
+    
+            marker_51b54813b4f8ca6d83926c7d0f599b00.bindTooltip(
+                `<div>
+                     5 – Спирка ЕКО
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_51b54813b4f8ca6d83926c7d0f599b00.setIcon(icon_2a6c865ae2a78da83960cb9ba162f4bd);
+            
+    
+            var marker_e6824d8083006bc301c1ae6d5eba4644 = L.marker(
+                [43.134476, 25.688907],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_b92c60622457f07d02a1e726299eca83 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58236b871ba70fa97dae63688e3eecfb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db52d6db2440ae0604a05452b89b1179 = $(`<div id="html_db52d6db2440ae0604a05452b89b1179" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 6<br>     <b>Име:</b> Спирка Цвети<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_58236b871ba70fa97dae63688e3eecfb.setContent(html_db52d6db2440ae0604a05452b89b1179);
+            
+        
+
+        marker_e6824d8083006bc301c1ae6d5eba4644.bindPopup(popup_58236b871ba70fa97dae63688e3eecfb)
+        ;
+
+        
+    
+    
+            marker_e6824d8083006bc301c1ae6d5eba4644.bindTooltip(
+                `<div>
+                     6 – Спирка Цвети
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e6824d8083006bc301c1ae6d5eba4644.setIcon(icon_b92c60622457f07d02a1e726299eca83);
+            
+    
+            var marker_c5ed6eb88e7f14c20f5e5fbb10409e81 = L.marker(
+                [43.132578, 25.683984],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_3c13e1505afbbddc21d336f67b5276e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_41df84ad0218f629f7fd8979b6c568b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_263608606055c12ec7101995add61fe2 = $(`<div id="html_263608606055c12ec7101995add61fe2" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 7<br>     <b>Име:</b> Обръщало ул. „П. Р. Славейков“<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_41df84ad0218f629f7fd8979b6c568b7.setContent(html_263608606055c12ec7101995add61fe2);
+            
+        
+
+        marker_c5ed6eb88e7f14c20f5e5fbb10409e81.bindPopup(popup_41df84ad0218f629f7fd8979b6c568b7)
+        ;
+
+        
+    
+    
+            marker_c5ed6eb88e7f14c20f5e5fbb10409e81.bindTooltip(
+                `<div>
+                     7 – Обръщало ул. „П. Р. Славейков“
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c5ed6eb88e7f14c20f5e5fbb10409e81.setIcon(icon_3c13e1505afbbddc21d336f67b5276e1);
+            
+    
+            var marker_532ee2a35aedc04d17f08a6d452d7d7c = L.marker(
+                [43.130996, 25.680229],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_3ee02423ce06278e62c0dd1dc5e4ff2a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b0f97657b208009b78f73c224dafedee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73d291114691e0d9849635532b5db88e = $(`<div id="html_73d291114691e0d9849635532b5db88e" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 8<br>     <b>Име:</b> ул. Васил Левски 4-8<br>     <b>Достъпност:</b> Да     </div>`)[0];
+                popup_b0f97657b208009b78f73c224dafedee.setContent(html_73d291114691e0d9849635532b5db88e);
+            
+        
+
+        marker_532ee2a35aedc04d17f08a6d452d7d7c.bindPopup(popup_b0f97657b208009b78f73c224dafedee)
+        ;
+
+        
+    
+    
+            marker_532ee2a35aedc04d17f08a6d452d7d7c.bindTooltip(
+                `<div>
+                     8 – ул. Васил Левски 4-8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_532ee2a35aedc04d17f08a6d452d7d7c.setIcon(icon_3ee02423ce06278e62c0dd1dc5e4ff2a);
+            
+    
+            var marker_8ec6178621d78d93b0033c057aabd016 = L.marker(
+                [43.128371, 25.680772],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_13c1cca5895a396ffb0a110285dd1e61 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3bc04febd2d8cf7ec9a08b2e8d26d0ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de3d6f9f55d06c2859782b5a5242e29f = $(`<div id="html_de3d6f9f55d06c2859782b5a5242e29f" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 9<br>     <b>Име:</b> ul. "Petko R. Slaveykov" 13-9<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_3bc04febd2d8cf7ec9a08b2e8d26d0ec.setContent(html_de3d6f9f55d06c2859782b5a5242e29f);
+            
+        
+
+        marker_8ec6178621d78d93b0033c057aabd016.bindPopup(popup_3bc04febd2d8cf7ec9a08b2e8d26d0ec)
+        ;
+
+        
+    
+    
+            marker_8ec6178621d78d93b0033c057aabd016.bindTooltip(
+                `<div>
+                     9 – ul. "Petko R. Slaveykov" 13-9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8ec6178621d78d93b0033c057aabd016.setIcon(icon_13c1cca5895a396ffb0a110285dd1e61);
+            
+    
+            var marker_bfba0706d098bb83e3cc17a5e2754633 = L.marker(
+                [43.129365, 25.676792],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_b5525e0f73d7c731c13f9a7419a6c616 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_90ee326ad04d9f2d2c2c962cf0ffd8cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcfe49986fbe96dc2485b02a4885e64c = $(`<div id="html_dcfe49986fbe96dc2485b02a4885e64c" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 10<br>     <b>Име:</b> ул. Панайот Цвикев 99-97<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_90ee326ad04d9f2d2c2c962cf0ffd8cc.setContent(html_dcfe49986fbe96dc2485b02a4885e64c);
+            
+        
+
+        marker_bfba0706d098bb83e3cc17a5e2754633.bindPopup(popup_90ee326ad04d9f2d2c2c962cf0ffd8cc)
+        ;
+
+        
+    
+    
+            marker_bfba0706d098bb83e3cc17a5e2754633.bindTooltip(
+                `<div>
+                     10 – ул. Панайот Цвикев 99-97
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bfba0706d098bb83e3cc17a5e2754633.setIcon(icon_b5525e0f73d7c731c13f9a7419a6c616);
+            
+    
+            var marker_f5dff56e1ba8c1c03f44acfea6e56939 = L.marker(
+                [43.130406, 25.674842],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_9515aa919c68d3a7adf8eab24d0b0f48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e0fed260ba5468b8bcf060e11f90221 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c743dc391235554e61dca95d86f9bd6c = $(`<div id="html_c743dc391235554e61dca95d86f9bd6c" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 11<br>     <b>Име:</b> ул. Славянска<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_4e0fed260ba5468b8bcf060e11f90221.setContent(html_c743dc391235554e61dca95d86f9bd6c);
+            
+        
+
+        marker_f5dff56e1ba8c1c03f44acfea6e56939.bindPopup(popup_4e0fed260ba5468b8bcf060e11f90221)
+        ;
+
+        
+    
+    
+            marker_f5dff56e1ba8c1c03f44acfea6e56939.bindTooltip(
+                `<div>
+                     11 – ул. Славянска
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f5dff56e1ba8c1c03f44acfea6e56939.setIcon(icon_9515aa919c68d3a7adf8eab24d0b0f48);
+            
+    
+            var marker_e04f70fd8a132347d0103437225aa74f = L.marker(
+                [43.130396, 25.670904],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_497c65910bd50ffe0c34cab9ac090933 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78c5371b96540aae8f75fae0f11ae28f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5232f64970144540242b9397d17acb2f = $(`<div id="html_5232f64970144540242b9397d17acb2f" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 12<br>     <b>Име:</b> О.Е.Моторспорт ЕООД<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_78c5371b96540aae8f75fae0f11ae28f.setContent(html_5232f64970144540242b9397d17acb2f);
+            
+        
+
+        marker_e04f70fd8a132347d0103437225aa74f.bindPopup(popup_78c5371b96540aae8f75fae0f11ae28f)
+        ;
+
+        
+    
+    
+            marker_e04f70fd8a132347d0103437225aa74f.bindTooltip(
+                `<div>
+                     12 – О.Е.Моторспорт ЕООД
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e04f70fd8a132347d0103437225aa74f.setIcon(icon_497c65910bd50ffe0c34cab9ac090933);
+            
+    
+            var marker_5b46064b57d5194e75dbe904d3dc5f4a = L.marker(
+                [43.127228, 25.683937],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_63d63eeeec124f0faa5476ef80e85e5d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1210629f638daeeb87f534537cf7f1c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56d387804c49ca14665e7ee11be46954 = $(`<div id="html_56d387804c49ca14665e7ee11be46954" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 13<br>     <b>Име:</b> Tsentar, ul. "Vicho Grancharov"<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_1210629f638daeeb87f534537cf7f1c2.setContent(html_56d387804c49ca14665e7ee11be46954);
+            
+        
+
+        marker_5b46064b57d5194e75dbe904d3dc5f4a.bindPopup(popup_1210629f638daeeb87f534537cf7f1c2)
+        ;
+
+        
+    
+    
+            marker_5b46064b57d5194e75dbe904d3dc5f4a.bindTooltip(
+                `<div>
+                     13 – Tsentar, ul. "Vicho Grancharov"
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5b46064b57d5194e75dbe904d3dc5f4a.setIcon(icon_63d63eeeec124f0faa5476ef80e85e5d);
+            
+    
+            var marker_7664a4ec0f20487c30aeff9a46d55793 = L.marker(
+                [43.125664, 25.685324],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_480bdeeef3d6cfd13e7d7376b7c7c8f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e400e82f367784654d14b056bbf6accd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66d0dd2f84fe412de0768c67d708cfdb = $(`<div id="html_66d0dd2f84fe412de0768c67d708cfdb" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 14<br>     <b>Име:</b> Park "Christo Botev"<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_e400e82f367784654d14b056bbf6accd.setContent(html_66d0dd2f84fe412de0768c67d708cfdb);
+            
+        
+
+        marker_7664a4ec0f20487c30aeff9a46d55793.bindPopup(popup_e400e82f367784654d14b056bbf6accd)
+        ;
+
+        
+    
+    
+            marker_7664a4ec0f20487c30aeff9a46d55793.bindTooltip(
+                `<div>
+                     14 – Park "Christo Botev"
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7664a4ec0f20487c30aeff9a46d55793.setIcon(icon_480bdeeef3d6cfd13e7d7376b7c7c8f1);
+            
+    
+            var marker_1f1c48e476015476b97ec5240e885b19 = L.marker(
+                [43.123851, 25.687508],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_e3f2262313656ca54e324a207a9a553b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e314cde7db16130a752c53cf51a1123a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9897732f27113155ca39461bc85acc86 = $(`<div id="html_9897732f27113155ca39461bc85acc86" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 15<br>     <b>Име:</b> ul. "Angel Kanchev"<br>     <b>Достъпност:</b> Да     </div>`)[0];
+                popup_e314cde7db16130a752c53cf51a1123a.setContent(html_9897732f27113155ca39461bc85acc86);
+            
+        
+
+        marker_1f1c48e476015476b97ec5240e885b19.bindPopup(popup_e314cde7db16130a752c53cf51a1123a)
+        ;
+
+        
+    
+    
+            marker_1f1c48e476015476b97ec5240e885b19.bindTooltip(
+                `<div>
+                     15 – ul. "Angel Kanchev"
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1f1c48e476015476b97ec5240e885b19.setIcon(icon_e3f2262313656ca54e324a207a9a553b);
+            
+    
+            var marker_9e7ab8f764b1d9593159b5c368dae59a = L.marker(
+                [43.120564, 25.689619],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_a00e918274120e7e28fc46b61e5a0843 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3a72b3d2717d914ed5f82ff36f0a8113 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a57952c07101dafec5e89cb13a1473b0 = $(`<div id="html_a57952c07101dafec5e89cb13a1473b0" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 16<br>     <b>Име:</b> ПГЛПИ „Атанас Буров“<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_3a72b3d2717d914ed5f82ff36f0a8113.setContent(html_a57952c07101dafec5e89cb13a1473b0);
+            
+        
+
+        marker_9e7ab8f764b1d9593159b5c368dae59a.bindPopup(popup_3a72b3d2717d914ed5f82ff36f0a8113)
+        ;
+
+        
+    
+    
+            marker_9e7ab8f764b1d9593159b5c368dae59a.bindTooltip(
+                `<div>
+                     16 – ПГЛПИ „Атанас Буров“
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9e7ab8f764b1d9593159b5c368dae59a.setIcon(icon_a00e918274120e7e28fc46b61e5a0843);
+            
+    
+            var marker_f5316d5deae773722c3d7d89b94e82b0 = L.marker(
+                [43.122191, 25.68952],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_e0115f881c614ed0b982fa6aad2d5110 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c85ce40f850fe53448935fa4905e580 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96332026d87870dc490a03f51e770a93 = $(`<div id="html_96332026d87870dc490a03f51e770a93" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 17<br>     <b>Име:</b> Tsentar, 53 2<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_5c85ce40f850fe53448935fa4905e580.setContent(html_96332026d87870dc490a03f51e770a93);
+            
+        
+
+        marker_f5316d5deae773722c3d7d89b94e82b0.bindPopup(popup_5c85ce40f850fe53448935fa4905e580)
+        ;
+
+        
+    
+    
+            marker_f5316d5deae773722c3d7d89b94e82b0.bindTooltip(
+                `<div>
+                     17 – Tsentar, 53 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f5316d5deae773722c3d7d89b94e82b0.setIcon(icon_e0115f881c614ed0b982fa6aad2d5110);
+            
+    
+            var marker_da14ecf59eb243b0a060de4c3f37262b = L.marker(
+                [43.120275, 25.68762],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_dcffc75a16ea6c56aa1ee9346347d92e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b03c93381861bc26fdbacac958f2b789 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_090ede9edd45c4503a405bb9c46d24db = $(`<div id="html_090ede9edd45c4503a405bb9c46d24db" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 18<br>     <b>Име:</b> Tsentar, ul. "Patriarh<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_b03c93381861bc26fdbacac958f2b789.setContent(html_090ede9edd45c4503a405bb9c46d24db);
+            
+        
+
+        marker_da14ecf59eb243b0a060de4c3f37262b.bindPopup(popup_b03c93381861bc26fdbacac958f2b789)
+        ;
+
+        
+    
+    
+            marker_da14ecf59eb243b0a060de4c3f37262b.bindTooltip(
+                `<div>
+                     18 – Tsentar, ul. "Patriarh
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_da14ecf59eb243b0a060de4c3f37262b.setIcon(icon_dcffc75a16ea6c56aa1ee9346347d92e);
+            
+    
+            var marker_4005cfbb988612dcd2205f03bebe02b4 = L.marker(
+                [43.118513, 25.684788],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_a5b43c0247f4dbd331e8c17446a27b5d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7121cecf93635ac4c20323d398ff59e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04161fd324f77aa55b0b7a56a8df9641 = $(`<div id="html_04161fd324f77aa55b0b7a56a8df9641" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 19<br>     <b>Име:</b> Veliko Tarnovo Provi<br>     <b>Достъпност:</b> Да     </div>`)[0];
+                popup_7121cecf93635ac4c20323d398ff59e6.setContent(html_04161fd324f77aa55b0b7a56a8df9641);
+            
+        
+
+        marker_4005cfbb988612dcd2205f03bebe02b4.bindPopup(popup_7121cecf93635ac4c20323d398ff59e6)
+        ;
+
+        
+    
+    
+            marker_4005cfbb988612dcd2205f03bebe02b4.bindTooltip(
+                `<div>
+                     19 – Veliko Tarnovo Provi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4005cfbb988612dcd2205f03bebe02b4.setIcon(icon_a5b43c0247f4dbd331e8c17446a27b5d);
+            
+    
+            var marker_fe35244df40326e0f583065592b507fa = L.marker(
+                [43.118162, 25.686288],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_6de7a976364e084c41651eaeb8a26340 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ab41f27644d5ff923b708b8e73217fe9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fdf4783430a7955a07a58b7e6de8a3a = $(`<div id="html_2fdf4783430a7955a07a58b7e6de8a3a" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 20<br>     <b>Име:</b> Gorna Oryahovitsa<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_ab41f27644d5ff923b708b8e73217fe9.setContent(html_2fdf4783430a7955a07a58b7e6de8a3a);
+            
+        
+
+        marker_fe35244df40326e0f583065592b507fa.bindPopup(popup_ab41f27644d5ff923b708b8e73217fe9)
+        ;
+
+        
+    
+    
+            marker_fe35244df40326e0f583065592b507fa.bindTooltip(
+                `<div>
+                     20 – Gorna Oryahovitsa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fe35244df40326e0f583065592b507fa.setIcon(icon_6de7a976364e084c41651eaeb8a26340);
+            
+    
+            var marker_53e5d28989107cfb93bf8384b58307ec = L.marker(
+                [43.118781, 25.689774],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_ad7c034f7bf8aa7912218f072414e3fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7e42df81952fcfe23e03aa10492bd35a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce8c56884f93b56f6ad9bb1b95068382 = $(`<div id="html_ce8c56884f93b56f6ad9bb1b95068382" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 21<br>     <b>Име:</b> Tsentar, ul. "Pirot" 38-42<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_7e42df81952fcfe23e03aa10492bd35a.setContent(html_ce8c56884f93b56f6ad9bb1b95068382);
+            
+        
+
+        marker_53e5d28989107cfb93bf8384b58307ec.bindPopup(popup_7e42df81952fcfe23e03aa10492bd35a)
+        ;
+
+        
+    
+    
+            marker_53e5d28989107cfb93bf8384b58307ec.bindTooltip(
+                `<div>
+                     21 – Tsentar, ul. "Pirot" 38-42
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_53e5d28989107cfb93bf8384b58307ec.setIcon(icon_ad7c034f7bf8aa7912218f072414e3fb);
+            
+    
+            var marker_781dfbe226072b9a5eda2e143ecd13fb = L.marker(
+                [43.11943, 25.694297],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_8eb3f40633cca1f48b3108c608b1dcbd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d4da86f2493261d26b3d6862dd5a9455 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c84cb6067e6d1105daaed378c3e70d9 = $(`<div id="html_9c84cb6067e6d1105daaed378c3e70d9" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 22<br>     <b>Име:</b> Tsentar, ул. Шипка 5<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_d4da86f2493261d26b3d6862dd5a9455.setContent(html_9c84cb6067e6d1105daaed378c3e70d9);
+            
+        
+
+        marker_781dfbe226072b9a5eda2e143ecd13fb.bindPopup(popup_d4da86f2493261d26b3d6862dd5a9455)
+        ;
+
+        
+    
+    
+            marker_781dfbe226072b9a5eda2e143ecd13fb.bindTooltip(
+                `<div>
+                     22 – Tsentar, ул. Шипка 5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_781dfbe226072b9a5eda2e143ecd13fb.setIcon(icon_8eb3f40633cca1f48b3108c608b1dcbd);
+            
+    
+            var marker_a5969330163b3da1b5711fc60aec7c92 = L.marker(
+                [43.118307, 25.694693],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_dd1425c1fa3cb9e94f138eb8c20fb359 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1b65729723c4c26474e96bd23126ba74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c33b772650c08398a0e4de2fab4b23f1 = $(`<div id="html_c33b772650c08398a0e4de2fab4b23f1" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 23<br>     <b>Име:</b> Tsentar, ул. „Кирил и Методий“ 20-24<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_1b65729723c4c26474e96bd23126ba74.setContent(html_c33b772650c08398a0e4de2fab4b23f1);
+            
+        
+
+        marker_a5969330163b3da1b5711fc60aec7c92.bindPopup(popup_1b65729723c4c26474e96bd23126ba74)
+        ;
+
+        
+    
+    
+            marker_a5969330163b3da1b5711fc60aec7c92.bindTooltip(
+                `<div>
+                     23 – Tsentar, ул. „Кирил и Методий“ 20-24
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a5969330163b3da1b5711fc60aec7c92.setIcon(icon_dd1425c1fa3cb9e94f138eb8c20fb359);
+            
+    
+            var marker_b1717f8c4e4fe1db7c88d7cb0efa0000 = L.marker(
+                [43.11786, 25.691637],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_13b2439d358c0eda46b4c84be672fbfc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6c4c37822c4439be74a65953deebe39a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88f1db0d1043bb3ae493724f1c7d7f32 = $(`<div id="html_88f1db0d1043bb3ae493724f1c7d7f32" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 24<br>     <b>Име:</b> Tsentar, ul. "Bratja Bendere<br>     <b>Достъпност:</b> Да     </div>`)[0];
+                popup_6c4c37822c4439be74a65953deebe39a.setContent(html_88f1db0d1043bb3ae493724f1c7d7f32);
+            
+        
+
+        marker_b1717f8c4e4fe1db7c88d7cb0efa0000.bindPopup(popup_6c4c37822c4439be74a65953deebe39a)
+        ;
+
+        
+    
+    
+            marker_b1717f8c4e4fe1db7c88d7cb0efa0000.bindTooltip(
+                `<div>
+                     24 – Tsentar, ul. "Bratja Bendere
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b1717f8c4e4fe1db7c88d7cb0efa0000.setIcon(icon_13b2439d358c0eda46b4c84be672fbfc);
+            
+    
+            var marker_5e7a1c236e9dc94208d0a85dbe04d43c = L.marker(
+                [43.115374, 25.692159],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_d3fb0262365b6a252c6decd2bb59fe4d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a36072d6df8974aab49c5970a9ed9984 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2e3afa12f52611e244c531c35875bdb = $(`<div id="html_f2e3afa12f52611e244c531c35875bdb" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 25<br>     <b>Име:</b> Tsentar, ul. "General Skobelev" 4a<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_a36072d6df8974aab49c5970a9ed9984.setContent(html_f2e3afa12f52611e244c531c35875bdb);
+            
+        
+
+        marker_5e7a1c236e9dc94208d0a85dbe04d43c.bindPopup(popup_a36072d6df8974aab49c5970a9ed9984)
+        ;
+
+        
+    
+    
+            marker_5e7a1c236e9dc94208d0a85dbe04d43c.bindTooltip(
+                `<div>
+                     25 – Tsentar, ul. "General Skobelev" 4a
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5e7a1c236e9dc94208d0a85dbe04d43c.setIcon(icon_d3fb0262365b6a252c6decd2bb59fe4d);
+            
+    
+            var marker_01bd57d8edf0e014b250c44f2566288f = L.marker(
+                [43.11788, 25.694506],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_858f9e29a8aa0f36843f326097d9e8e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a386db294f40184d16550f8d59c6a99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_938ef55951bff353d9c984102cdd142c = $(`<div id="html_938ef55951bff353d9c984102cdd142c" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 26<br>     <b>Име:</b> Tsentar, улица Люли<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_2a386db294f40184d16550f8d59c6a99.setContent(html_938ef55951bff353d9c984102cdd142c);
+            
+        
+
+        marker_01bd57d8edf0e014b250c44f2566288f.bindPopup(popup_2a386db294f40184d16550f8d59c6a99)
+        ;
+
+        
+    
+    
+            marker_01bd57d8edf0e014b250c44f2566288f.bindTooltip(
+                `<div>
+                     26 – Tsentar, улица Люли
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_01bd57d8edf0e014b250c44f2566288f.setIcon(icon_858f9e29a8aa0f36843f326097d9e8e8);
+            
+    
+            var marker_b89b2373d4df274d33f35b0999a7915a = L.marker(
+                [43.117752, 25.698646],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_c4adbe0e6f50f8e3fdc836da6efb9a21 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b2ca1a64efbf3885cf598c4f5f53094b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6d367d1f8a981e987edd3e68d136e1a = $(`<div id="html_b6d367d1f8a981e987edd3e68d136e1a" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 27<br>     <b>Име:</b> Hotel Enigma<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_b2ca1a64efbf3885cf598c4f5f53094b.setContent(html_b6d367d1f8a981e987edd3e68d136e1a);
+            
+        
+
+        marker_b89b2373d4df274d33f35b0999a7915a.bindPopup(popup_b2ca1a64efbf3885cf598c4f5f53094b)
+        ;
+
+        
+    
+    
+            marker_b89b2373d4df274d33f35b0999a7915a.bindTooltip(
+                `<div>
+                     27 – Hotel Enigma
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b89b2373d4df274d33f35b0999a7915a.setIcon(icon_c4adbe0e6f50f8e3fdc836da6efb9a21);
+            
+    
+            var marker_c04799ef1dcdab9476bdb176bf4f72ba = L.marker(
+                [43.116208, 25.701003],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_7189ec762da69a828367d9dae4493c2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78f66dbf14d373ef215d8d2e925026d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f23b425885959e01c2b3b70aa4154fd = $(`<div id="html_3f23b425885959e01c2b3b70aa4154fd" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 28<br>     <b>Име:</b> улица Руен<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_78f66dbf14d373ef215d8d2e925026d5.setContent(html_3f23b425885959e01c2b3b70aa4154fd);
+            
+        
+
+        marker_c04799ef1dcdab9476bdb176bf4f72ba.bindPopup(popup_78f66dbf14d373ef215d8d2e925026d5)
+        ;
+
+        
+    
+    
+            marker_c04799ef1dcdab9476bdb176bf4f72ba.bindTooltip(
+                `<div>
+                     28 – улица Руен
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c04799ef1dcdab9476bdb176bf4f72ba.setIcon(icon_7189ec762da69a828367d9dae4493c2d);
+            
+    
+            var marker_74075e041cacc2a175ee0e46eafcf809 = L.marker(
+                [43.118076, 25.702172],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_c80afda8ddbacaa4c06f5da9b8af3254 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5b89add65a6c25d33444b88405e25196 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e389cb579768a9fdae1024d2d7132e4c = $(`<div id="html_e389cb579768a9fdae1024d2d7132e4c" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 29<br>     <b>Име:</b> ул."Росица"<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_5b89add65a6c25d33444b88405e25196.setContent(html_e389cb579768a9fdae1024d2d7132e4c);
+            
+        
+
+        marker_74075e041cacc2a175ee0e46eafcf809.bindPopup(popup_5b89add65a6c25d33444b88405e25196)
+        ;
+
+        
+    
+    
+            marker_74075e041cacc2a175ee0e46eafcf809.bindTooltip(
+                `<div>
+                     29 – ул."Росица"
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_74075e041cacc2a175ee0e46eafcf809.setIcon(icon_c80afda8ddbacaa4c06f5da9b8af3254);
+            
+    
+            var marker_7acebbe757ca9b000128478c1191b3b3 = L.marker(
+                [43.120147, 25.704387],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_54fd8f3b99339d4bed084919a06c3772 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_201e99500e61db6183a7344848bcded0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c13e0cfc588e03280758d1ee5fc947c2 = $(`<div id="html_c13e0cfc588e03280758d1ee5fc947c2" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 30<br>     <b>Име:</b> МОЛЛОВИ - 2009 ООД<br>     <b>Достъпност:</b> Да     </div>`)[0];
+                popup_201e99500e61db6183a7344848bcded0.setContent(html_c13e0cfc588e03280758d1ee5fc947c2);
+            
+        
+
+        marker_7acebbe757ca9b000128478c1191b3b3.bindPopup(popup_201e99500e61db6183a7344848bcded0)
+        ;
+
+        
+    
+    
+            marker_7acebbe757ca9b000128478c1191b3b3.bindTooltip(
+                `<div>
+                     30 – МОЛЛОВИ - 2009 ООД
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7acebbe757ca9b000128478c1191b3b3.setIcon(icon_54fd8f3b99339d4bed084919a06c3772);
+            
+    
+            var marker_a124fc7adace7717f46a627bc27df63c = L.marker(
+                [43.12097, 25.705395],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_5706521898648d7a008d975e2e1a1d48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_56975ba041a0e60d03c59177665766f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_280c4eaf46b789fab88bcb5a3dad4f18 = $(`<div id="html_280c4eaf46b789fab88bcb5a3dad4f18" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 31<br>     <b>Име:</b> Централни градски гробища<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_56975ba041a0e60d03c59177665766f2.setContent(html_280c4eaf46b789fab88bcb5a3dad4f18);
+            
+        
+
+        marker_a124fc7adace7717f46a627bc27df63c.bindPopup(popup_56975ba041a0e60d03c59177665766f2)
+        ;
+
+        
+    
+    
+            marker_a124fc7adace7717f46a627bc27df63c.bindTooltip(
+                `<div>
+                     31 – Централни градски гробища
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a124fc7adace7717f46a627bc27df63c.setIcon(icon_5706521898648d7a008d975e2e1a1d48);
+            
+    
+            var marker_1ab40647d348dfab094aee88ce15f747 = L.marker(
+                [43.121737, 25.702252],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_08d6b9f495f36d94aaad72d06ba6cf43 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1b916449566c3d0b83f3463d1dafd550 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a0c18eb37e3ebb26b6d51a1f1914c09 = $(`<div id="html_6a0c18eb37e3ebb26b6d51a1f1914c09" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 32<br>     <b>Име:</b> M-Car Tuning<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_1b916449566c3d0b83f3463d1dafd550.setContent(html_6a0c18eb37e3ebb26b6d51a1f1914c09);
+            
+        
+
+        marker_1ab40647d348dfab094aee88ce15f747.bindPopup(popup_1b916449566c3d0b83f3463d1dafd550)
+        ;
+
+        
+    
+    
+            marker_1ab40647d348dfab094aee88ce15f747.bindTooltip(
+                `<div>
+                     32 – M-Car Tuning
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1ab40647d348dfab094aee88ce15f747.setIcon(icon_08d6b9f495f36d94aaad72d06ba6cf43);
+            
+    
+            var marker_eaedbe6aa572bd58a2e233a9b6856d1c = L.marker(
+                [43.120883, 25.697982],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_91a043041f8d6d81d38e09a1c74617dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_19188a68cc9b8e24259f424699000730 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8970dad48a385d61d2567b3b7abda4c1 = $(`<div id="html_8970dad48a385d61d2567b3b7abda4c1" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 33<br>     <b>Име:</b> Greyko Engineering Ltd<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_19188a68cc9b8e24259f424699000730.setContent(html_8970dad48a385d61d2567b3b7abda4c1);
+            
+        
+
+        marker_eaedbe6aa572bd58a2e233a9b6856d1c.bindPopup(popup_19188a68cc9b8e24259f424699000730)
+        ;
+
+        
+    
+    
+            marker_eaedbe6aa572bd58a2e233a9b6856d1c.bindTooltip(
+                `<div>
+                     33 – Greyko Engineering Ltd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_eaedbe6aa572bd58a2e233a9b6856d1c.setIcon(icon_91a043041f8d6d81d38e09a1c74617dd);
+            
+    
+            var marker_da7987ae0113e7a3bf971ae3b76a2076 = L.marker(
+                [43.121878, 25.697746],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_93ddacc36438587795ffa2a96f84cc6e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dbf929d26677f82eb860c34eba52fbac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aeee6fb69c421abbfb0cb0da4b095266 = $(`<div id="html_aeee6fb69c421abbfb0cb0da4b095266" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 34<br>     <b>Име:</b> Фирмен магазин-Купро<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_dbf929d26677f82eb860c34eba52fbac.setContent(html_aeee6fb69c421abbfb0cb0da4b095266);
+            
+        
+
+        marker_da7987ae0113e7a3bf971ae3b76a2076.bindPopup(popup_dbf929d26677f82eb860c34eba52fbac)
+        ;
+
+        
+    
+    
+            marker_da7987ae0113e7a3bf971ae3b76a2076.bindTooltip(
+                `<div>
+                     34 – Фирмен магазин-Купро
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_da7987ae0113e7a3bf971ae3b76a2076.setIcon(icon_93ddacc36438587795ffa2a96f84cc6e);
+            
+    
+            var marker_3c7a21a43546a86e44bf02d2db20c62d = L.marker(
+                [43.123679, 25.696662],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_d107b837388969b1f9c5d07cdaae11b0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_49e0612306a75143fac8063ef9df975c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1585d5ee270db9227191138f09e044e4 = $(`<div id="html_1585d5ee270db9227191138f09e044e4" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 35<br>     <b>Име:</b> Veliko Tarnovo Provi<br>     <b>Достъпност:</b> Да     </div>`)[0];
+                popup_49e0612306a75143fac8063ef9df975c.setContent(html_1585d5ee270db9227191138f09e044e4);
+            
+        
+
+        marker_3c7a21a43546a86e44bf02d2db20c62d.bindPopup(popup_49e0612306a75143fac8063ef9df975c)
+        ;
+
+        
+    
+    
+            marker_3c7a21a43546a86e44bf02d2db20c62d.bindTooltip(
+                `<div>
+                     35 – Veliko Tarnovo Provi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3c7a21a43546a86e44bf02d2db20c62d.setIcon(icon_d107b837388969b1f9c5d07cdaae11b0);
+            
+    
+            var marker_777046d2b3e6a3c88520eaf4812ad3dd = L.marker(
+                [43.122409, 25.694952],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_c9c717d5de5e153b72f9449812c23234 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_566073ecf164467288c62774d1b217ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b52dc0e3685b5e6ef8323acfe8863894 = $(`<div id="html_b52dc0e3685b5e6ef8323acfe8863894" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 36<br>     <b>Име:</b> Tsentar, ul. "Shejnovo" 20-22<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_566073ecf164467288c62774d1b217ce.setContent(html_b52dc0e3685b5e6ef8323acfe8863894);
+            
+        
+
+        marker_777046d2b3e6a3c88520eaf4812ad3dd.bindPopup(popup_566073ecf164467288c62774d1b217ce)
+        ;
+
+        
+    
+    
+            marker_777046d2b3e6a3c88520eaf4812ad3dd.bindTooltip(
+                `<div>
+                     36 – Tsentar, ul. "Shejnovo" 20-22
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_777046d2b3e6a3c88520eaf4812ad3dd.setIcon(icon_c9c717d5de5e153b72f9449812c23234);
+            
+    
+            var marker_02d6878cc4e865e5555e55470f56e95f = L.marker(
+                [43.122706, 25.692194],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_15bc6e50ab2fa6f9202a683303bd9fcc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58b8840a7f657a3a3aa814ab5d98fc3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c62b32132f2dbebefd2431360d183bb7 = $(`<div id="html_c62b32132f2dbebefd2431360d183bb7" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 37<br>     <b>Име:</b> СПИДИ ГОРНА ОРЯХОВИЦА - СВ.КНЯЗ БОРИС I (УЛ.)<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_58b8840a7f657a3a3aa814ab5d98fc3e.setContent(html_c62b32132f2dbebefd2431360d183bb7);
+            
+        
+
+        marker_02d6878cc4e865e5555e55470f56e95f.bindPopup(popup_58b8840a7f657a3a3aa814ab5d98fc3e)
+        ;
+
+        
+    
+    
+            marker_02d6878cc4e865e5555e55470f56e95f.bindTooltip(
+                `<div>
+                     37 – СПИДИ ГОРНА ОРЯХОВИЦА - СВ.КНЯЗ БОРИС I (УЛ.)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_02d6878cc4e865e5555e55470f56e95f.setIcon(icon_15bc6e50ab2fa6f9202a683303bd9fcc);
+            
+    
+            var marker_eadcc8a5fa68df06852bb50fcac31fdb = L.marker(
+                [43.125126, 25.696625],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_1fb6d5891dc64c71cb9871eeba0f3ce5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_89ee0f5851414b34f788ceb4d39d037d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73e3860d2489fb8e457d5331e91d63c1 = $(`<div id="html_73e3860d2489fb8e457d5331e91d63c1" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 38<br>     <b>Име:</b> Tsentar, ул. Св. княз Борис<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_89ee0f5851414b34f788ceb4d39d037d.setContent(html_73e3860d2489fb8e457d5331e91d63c1);
+            
+        
+
+        marker_eadcc8a5fa68df06852bb50fcac31fdb.bindPopup(popup_89ee0f5851414b34f788ceb4d39d037d)
+        ;
+
+        
+    
+    
+            marker_eadcc8a5fa68df06852bb50fcac31fdb.bindTooltip(
+                `<div>
+                     38 – Tsentar, ул. Св. княз Борис
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_eadcc8a5fa68df06852bb50fcac31fdb.setIcon(icon_1fb6d5891dc64c71cb9871eeba0f3ce5);
+            
+    
+            var marker_e268e458e55f8676fbc354487b8587e8 = L.marker(
+                [43.127037, 25.700026],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_5ba478abc7485176bd01fddba563dc9e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_152ac0204e8d70408e9de3825cb29ddf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f66935ea37fe459727cad5bfb1bd275 = $(`<div id="html_1f66935ea37fe459727cad5bfb1bd275" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 39<br>     <b>Име:</b> TOPLIVO - Warehouse Gorna Oryahovits<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_152ac0204e8d70408e9de3825cb29ddf.setContent(html_1f66935ea37fe459727cad5bfb1bd275);
+            
+        
+
+        marker_e268e458e55f8676fbc354487b8587e8.bindPopup(popup_152ac0204e8d70408e9de3825cb29ddf)
+        ;
+
+        
+    
+    
+            marker_e268e458e55f8676fbc354487b8587e8.bindTooltip(
+                `<div>
+                     39 – TOPLIVO - Warehouse Gorna Oryahovits
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e268e458e55f8676fbc354487b8587e8.setIcon(icon_5ba478abc7485176bd01fddba563dc9e);
+            
+    
+            var marker_25cf281e0c030862ab5f47b2fcccbe20 = L.marker(
+                [43.128007, 25.701529],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_095314b18803cc9874ada837511b8f55 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fe50b669d153ba74cc55d1afd107fbab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6bfc16edb0d754662234f98795d0b1ae = $(`<div id="html_6bfc16edb0d754662234f98795d0b1ae" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 40<br>     <b>Име:</b> Petrol<br>     <b>Достъпност:</b> Да     </div>`)[0];
+                popup_fe50b669d153ba74cc55d1afd107fbab.setContent(html_6bfc16edb0d754662234f98795d0b1ae);
+            
+        
+
+        marker_25cf281e0c030862ab5f47b2fcccbe20.bindPopup(popup_fe50b669d153ba74cc55d1afd107fbab)
+        ;
+
+        
+    
+    
+            marker_25cf281e0c030862ab5f47b2fcccbe20.bindTooltip(
+                `<div>
+                     40 – Petrol
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_25cf281e0c030862ab5f47b2fcccbe20.setIcon(icon_095314b18803cc9874ada837511b8f55);
+            
+    
+            var marker_9ecabafb47a0666e64455a0b155aaa42 = L.marker(
+                [43.129784, 25.703855],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_cacf6aae751adb53ec543c8f27c9e363 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_47be2fbeab676b19b499d00768e46e68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19f3c379ddc4196ff25a3417445ccb0a = $(`<div id="html_19f3c379ddc4196ff25a3417445ccb0a" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 41<br>     <b>Име:</b> Сортови Семена АД<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_47be2fbeab676b19b499d00768e46e68.setContent(html_19f3c379ddc4196ff25a3417445ccb0a);
+            
+        
+
+        marker_9ecabafb47a0666e64455a0b155aaa42.bindPopup(popup_47be2fbeab676b19b499d00768e46e68)
+        ;
+
+        
+    
+    
+            marker_9ecabafb47a0666e64455a0b155aaa42.bindTooltip(
+                `<div>
+                     41 – Сортови Семена АД
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9ecabafb47a0666e64455a0b155aaa42.setIcon(icon_cacf6aae751adb53ec543c8f27c9e363);
+            
+    
+            var marker_ac95746f327d37e6f6991d1e079fda3d = L.marker(
+                [43.131715, 25.706352],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_3f9d07edb13a02708d4bdc8260718226 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_269bd025bcf0b75c2df8b7578eff3087 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c7b92de3fbb990e0e070af282d0bd76 = $(`<div id="html_0c7b92de3fbb990e0e070af282d0bd76" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 42<br>     <b>Име:</b> Бонбонена фабрика<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_269bd025bcf0b75c2df8b7578eff3087.setContent(html_0c7b92de3fbb990e0e070af282d0bd76);
+            
+        
+
+        marker_ac95746f327d37e6f6991d1e079fda3d.bindPopup(popup_269bd025bcf0b75c2df8b7578eff3087)
+        ;
+
+        
+    
+    
+            marker_ac95746f327d37e6f6991d1e079fda3d.bindTooltip(
+                `<div>
+                     42 – Бонбонена фабрика
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ac95746f327d37e6f6991d1e079fda3d.setIcon(icon_3f9d07edb13a02708d4bdc8260718226);
+            
+    
+            var marker_5f5141e7d4e186be6276c079413dced9 = L.marker(
+                [43.136086, 25.712037],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_97e96d3f53e8e0990bfbfa26d9fafaf9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_885ed04fcc8f68d224d4635fc4d24ea0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45b384943e152f0579b256b3849f4e12 = $(`<div id="html_45b384943e152f0579b256b3849f4e12" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 43<br>     <b>Име:</b> EAD "Zahar"<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_885ed04fcc8f68d224d4635fc4d24ea0.setContent(html_45b384943e152f0579b256b3849f4e12);
+            
+        
+
+        marker_5f5141e7d4e186be6276c079413dced9.bindPopup(popup_885ed04fcc8f68d224d4635fc4d24ea0)
+        ;
+
+        
+    
+    
+            marker_5f5141e7d4e186be6276c079413dced9.bindTooltip(
+                `<div>
+                     43 – EAD "Zahar"
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5f5141e7d4e186be6276c079413dced9.setIcon(icon_97e96d3f53e8e0990bfbfa26d9fafaf9);
+            
+    
+            var marker_2ec6c1f96389ce87d325b207422c4e64 = L.marker(
+                [43.139165, 25.716114],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_27595d8b76e93ba2949a6de2cf5d44dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b485cb21ea8c50a3f3d9013fffc0b008 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53d8ff7c98cb3b3eb9366e23804f8d03 = $(`<div id="html_53d8ff7c98cb3b3eb9366e23804f8d03" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 44<br>     <b>Име:</b> Складова база Газтрейд<br>     <b>Достъпност:</b> Да     </div>`)[0];
+                popup_b485cb21ea8c50a3f3d9013fffc0b008.setContent(html_53d8ff7c98cb3b3eb9366e23804f8d03);
+            
+        
+
+        marker_2ec6c1f96389ce87d325b207422c4e64.bindPopup(popup_b485cb21ea8c50a3f3d9013fffc0b008)
+        ;
+
+        
+    
+    
+            marker_2ec6c1f96389ce87d325b207422c4e64.bindTooltip(
+                `<div>
+                     44 – Складова база Газтрейд
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2ec6c1f96389ce87d325b207422c4e64.setIcon(icon_27595d8b76e93ba2949a6de2cf5d44dc);
+            
+    
+            var marker_eb3fdc63096012b0868153e1272e5cb5 = L.marker(
+                [43.140646, 25.719202],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_4c8aa45cf310f27e599f83713d27bb89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58bedc4aac492dfc82f3d0c1571292ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_163f9edec2413f4c4b4bd2d0f42aa399 = $(`<div id="html_163f9edec2413f4c4b4bd2d0f42aa399" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 45<br>     <b>Име:</b> Честово - спирка<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_58bedc4aac492dfc82f3d0c1571292ab.setContent(html_163f9edec2413f4c4b4bd2d0f42aa399);
+            
+        
+
+        marker_eb3fdc63096012b0868153e1272e5cb5.bindPopup(popup_58bedc4aac492dfc82f3d0c1571292ab)
+        ;
+
+        
+    
+    
+            marker_eb3fdc63096012b0868153e1272e5cb5.bindTooltip(
+                `<div>
+                     45 – Честово - спирка
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_eb3fdc63096012b0868153e1272e5cb5.setIcon(icon_4c8aa45cf310f27e599f83713d27bb89);
+            
+    
+            var marker_4603fe6ee4379cdb452c8c137bb5ac46 = L.marker(
+                [43.140603, 25.724789],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_5a5f11910cf33ef8e43a77184f7b30fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_efcbfabdfbc85260c965272c5d40c23b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73a35b3672e3efd5bf1e33b3ea435ef8 = $(`<div id="html_73a35b3672e3efd5bf1e33b3ea435ef8" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 46<br>     <b>Име:</b> СИАД БЪЛГАРИЯ<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_efcbfabdfbc85260c965272c5d40c23b.setContent(html_73a35b3672e3efd5bf1e33b3ea435ef8);
+            
+        
+
+        marker_4603fe6ee4379cdb452c8c137bb5ac46.bindPopup(popup_efcbfabdfbc85260c965272c5d40c23b)
+        ;
+
+        
+    
+    
+            marker_4603fe6ee4379cdb452c8c137bb5ac46.bindTooltip(
+                `<div>
+                     46 – СИАД БЪЛГАРИЯ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4603fe6ee4379cdb452c8c137bb5ac46.setIcon(icon_5a5f11910cf33ef8e43a77184f7b30fb);
+            
+    
+            var marker_e653865fcec278afd40a21af0c10ca72 = L.marker(
+                [43.13938, 25.729185],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_b2428bcc3dc9a5b13bac03af96749d56 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e8168ee821355fdaedb3460e9b45f05c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbfc8184e54172bd872ad3be46b9db3d = $(`<div id="html_bbfc8184e54172bd872ad3be46b9db3d" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 47<br>     <b>Име:</b> Avtomorga LUCKY - 2007 Ltd.<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_e8168ee821355fdaedb3460e9b45f05c.setContent(html_bbfc8184e54172bd872ad3be46b9db3d);
+            
+        
+
+        marker_e653865fcec278afd40a21af0c10ca72.bindPopup(popup_e8168ee821355fdaedb3460e9b45f05c)
+        ;
+
+        
+    
+    
+            marker_e653865fcec278afd40a21af0c10ca72.bindTooltip(
+                `<div>
+                     47 – Avtomorga LUCKY - 2007 Ltd.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e653865fcec278afd40a21af0c10ca72.setIcon(icon_b2428bcc3dc9a5b13bac03af96749d56);
+            
+    
+            var marker_30a771a744e4e29840885e9b6cf49442 = L.marker(
+                [43.145395, 25.71865],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_b85353e6d940744a13a517afc7396404 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ec35c3c492f71f572e70f232af7b451c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b1584d6865c95394e70630375daf4f9 = $(`<div id="html_3b1584d6865c95394e70630375daf4f9" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 48<br>     <b>Име:</b> Gorna Oryahovitsa Airport<br>     <b>Достъпност:</b> Да     </div>`)[0];
+                popup_ec35c3c492f71f572e70f232af7b451c.setContent(html_3b1584d6865c95394e70630375daf4f9);
+            
+        
+
+        marker_30a771a744e4e29840885e9b6cf49442.bindPopup(popup_ec35c3c492f71f572e70f232af7b451c)
+        ;
+
+        
+    
+    
+            marker_30a771a744e4e29840885e9b6cf49442.bindTooltip(
+                `<div>
+                     48 – Gorna Oryahovitsa Airport
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_30a771a744e4e29840885e9b6cf49442.setIcon(icon_b85353e6d940744a13a517afc7396404);
+            
+    
+            var marker_ed79cdd66fda37a76f88135b5c4e1495 = L.marker(
+                [43.140204, 25.713152],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_a3b2ec82cdfbec722d46c127c8aaea51 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4405813dff0c8ca52b63e7e3a9acbe28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49b2693a8467fd4417dce0de78881e18 = $(`<div id="html_49b2693a8467fd4417dce0de78881e18" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 49<br>     <b>Име:</b> Калтинец<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_4405813dff0c8ca52b63e7e3a9acbe28.setContent(html_49b2693a8467fd4417dce0de78881e18);
+            
+        
+
+        marker_ed79cdd66fda37a76f88135b5c4e1495.bindPopup(popup_4405813dff0c8ca52b63e7e3a9acbe28)
+        ;
+
+        
+    
+    
+            marker_ed79cdd66fda37a76f88135b5c4e1495.bindTooltip(
+                `<div>
+                     49 – Калтинец
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ed79cdd66fda37a76f88135b5c4e1495.setIcon(icon_a3b2ec82cdfbec722d46c127c8aaea51);
+            
+    
+            var marker_a3daacbf50bbf2be8016a670cc086561 = L.marker(
+                [43.138749, 25.702437],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_e00c95493f68b77355d0f8ccdd7e04a9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_04db26bbe298f83ebb7a43ed7813dee8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1721aab1611b5c11e8656aae440c166d = $(`<div id="html_1721aab1611b5c11e8656aae440c166d" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 50<br>     <b>Име:</b> Прима блок ООД<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_04db26bbe298f83ebb7a43ed7813dee8.setContent(html_1721aab1611b5c11e8656aae440c166d);
+            
+        
+
+        marker_a3daacbf50bbf2be8016a670cc086561.bindPopup(popup_04db26bbe298f83ebb7a43ed7813dee8)
+        ;
+
+        
+    
+    
+            marker_a3daacbf50bbf2be8016a670cc086561.bindTooltip(
+                `<div>
+                     50 – Прима блок ООД
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a3daacbf50bbf2be8016a670cc086561.setIcon(icon_e00c95493f68b77355d0f8ccdd7e04a9);
+            
+    
+            var marker_cdc9607d9692241dec90cd6f3eafe0cd = L.marker(
+                [43.139068, 25.696352],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_b980e5a40f45a3704ad81f49f8fe00cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0450972fe5b1be0ca1824844a6eed0e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29d707a5aba7a8c53150aa4c8fa6de8d = $(`<div id="html_29d707a5aba7a8c53150aa4c8fa6de8d" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 51<br>     <b>Име:</b> kv."Kaltinec", ул. Варненс<br>     <b>Достъпност:</b> Да     </div>`)[0];
+                popup_0450972fe5b1be0ca1824844a6eed0e8.setContent(html_29d707a5aba7a8c53150aa4c8fa6de8d);
+            
+        
+
+        marker_cdc9607d9692241dec90cd6f3eafe0cd.bindPopup(popup_0450972fe5b1be0ca1824844a6eed0e8)
+        ;
+
+        
+    
+    
+            marker_cdc9607d9692241dec90cd6f3eafe0cd.bindTooltip(
+                `<div>
+                     51 – kv."Kaltinec", ул. Варненс
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cdc9607d9692241dec90cd6f3eafe0cd.setIcon(icon_b980e5a40f45a3704ad81f49f8fe00cf);
+            
+    
+            var marker_361f574d3bfbf157366da2c870f4d934 = L.marker(
+                [43.141359, 25.690681],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_cb2f61b0310742ea761d98e560693cca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f5bcd2e59eb3b51489b08fd4a33a661e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_817bdb488b6dfb64a0dd45830558f2e5 = $(`<div id="html_817bdb488b6dfb64a0dd45830558f2e5" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 52<br>     <b>Име:</b> kv."Kaltinec", ul. "Anton Strashimirov" 52-58<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_f5bcd2e59eb3b51489b08fd4a33a661e.setContent(html_817bdb488b6dfb64a0dd45830558f2e5);
+            
+        
+
+        marker_361f574d3bfbf157366da2c870f4d934.bindPopup(popup_f5bcd2e59eb3b51489b08fd4a33a661e)
+        ;
+
+        
+    
+    
+            marker_361f574d3bfbf157366da2c870f4d934.bindTooltip(
+                `<div>
+                     52 – kv."Kaltinec", ul. "Anton Strashimirov" 52-58
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_361f574d3bfbf157366da2c870f4d934.setIcon(icon_cb2f61b0310742ea761d98e560693cca);
+            
+    
+            var marker_6943da34c93460a697b53b2384156155 = L.marker(
+                [43.141952, 25.684986],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_32439c472e050715f6b903f2870c2b8c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e0cc1169b7376daa4e48126a6c9cf85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d6ecd2e8390d64dd7196f966089fe6e = $(`<div id="html_7d6ecd2e8390d64dd7196f966089fe6e" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 53<br>     <b>Име:</b> AMV BLAST Sandblasting<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_4e0cc1169b7376daa4e48126a6c9cf85.setContent(html_7d6ecd2e8390d64dd7196f966089fe6e);
+            
+        
+
+        marker_6943da34c93460a697b53b2384156155.bindPopup(popup_4e0cc1169b7376daa4e48126a6c9cf85)
+        ;
+
+        
+    
+    
+            marker_6943da34c93460a697b53b2384156155.bindTooltip(
+                `<div>
+                     53 – AMV BLAST Sandblasting
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6943da34c93460a697b53b2384156155.setIcon(icon_32439c472e050715f6b903f2870c2b8c);
+            
+    
+            var marker_832dfdc27306753ed3e8f0ff521cdff4 = L.marker(
+                [43.142393, 25.677289],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_8a617848e5e7793d009ca9dda29bd0d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_87f37602d181b3400c0944f93aff44c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e1ef2b691648822fd429740ea9ee9c0 = $(`<div id="html_7e1ef2b691648822fd429740ea9ee9c0" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 54<br>     <b>Име:</b> Тео Ауто<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_87f37602d181b3400c0944f93aff44c7.setContent(html_7e1ef2b691648822fd429740ea9ee9c0);
+            
+        
+
+        marker_832dfdc27306753ed3e8f0ff521cdff4.bindPopup(popup_87f37602d181b3400c0944f93aff44c7)
+        ;
+
+        
+    
+    
+            marker_832dfdc27306753ed3e8f0ff521cdff4.bindTooltip(
+                `<div>
+                     54 – Тео Ауто
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_832dfdc27306753ed3e8f0ff521cdff4.setIcon(icon_8a617848e5e7793d009ca9dda29bd0d5);
+            
+    
+            var marker_3611f0c5b07b036be26acd0711a3df07 = L.marker(
+                [43.142129, 25.672253],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_2daffcc50619dd7cd6fa6b243ab02b51 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_83ebbcc84a39b8a2f6de99c012f0e6fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c05cf0b0e23c433b7603edacbb99d0f2 = $(`<div id="html_c05cf0b0e23c433b7603edacbb99d0f2" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 55<br>     <b>Име:</b> Енергосекция Горна Оряховица<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_83ebbcc84a39b8a2f6de99c012f0e6fd.setContent(html_c05cf0b0e23c433b7603edacbb99d0f2);
+            
+        
+
+        marker_3611f0c5b07b036be26acd0711a3df07.bindPopup(popup_83ebbcc84a39b8a2f6de99c012f0e6fd)
+        ;
+
+        
+    
+    
+            marker_3611f0c5b07b036be26acd0711a3df07.bindTooltip(
+                `<div>
+                     55 – Енергосекция Горна Оряховица
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3611f0c5b07b036be26acd0711a3df07.setIcon(icon_2daffcc50619dd7cd6fa6b243ab02b51);
+            
+    
+            var marker_afcb5de183cfb48b33bf371c86e940fb = L.marker(
+                [43.142171, 25.669002],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_5178f17a361fe3e80a7ca5df84098794 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c76b38ec8887c6fb2e71c80c285ee996 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf8f27673ad1165cb7cc5ee9572ef09f = $(`<div id="html_bf8f27673ad1165cb7cc5ee9572ef09f" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 56<br>     <b>Име:</b> Himprodukt<br>     <b>Достъпност:</b> Да     </div>`)[0];
+                popup_c76b38ec8887c6fb2e71c80c285ee996.setContent(html_bf8f27673ad1165cb7cc5ee9572ef09f);
+            
+        
+
+        marker_afcb5de183cfb48b33bf371c86e940fb.bindPopup(popup_c76b38ec8887c6fb2e71c80c285ee996)
+        ;
+
+        
+    
+    
+            marker_afcb5de183cfb48b33bf371c86e940fb.bindTooltip(
+                `<div>
+                     56 – Himprodukt
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_afcb5de183cfb48b33bf371c86e940fb.setIcon(icon_5178f17a361fe3e80a7ca5df84098794);
+            
+    
+            var marker_37cdd1597dcc823fc42fe2472a0efa1c = L.marker(
+                [43.14239, 25.666502],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_02895c3d06cda0803eb1e2a8c8f06dac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2b70182af2afb369b6adab9a667404f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4be9000b8dcc96a26b3a29e8d48229e = $(`<div id="html_b4be9000b8dcc96a26b3a29e8d48229e" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 57<br>     <b>Име:</b> дрт 53<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_2b70182af2afb369b6adab9a667404f8.setContent(html_b4be9000b8dcc96a26b3a29e8d48229e);
+            
+        
+
+        marker_37cdd1597dcc823fc42fe2472a0efa1c.bindPopup(popup_2b70182af2afb369b6adab9a667404f8)
+        ;
+
+        
+    
+    
+            marker_37cdd1597dcc823fc42fe2472a0efa1c.bindTooltip(
+                `<div>
+                     57 – дрт 53
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_37cdd1597dcc823fc42fe2472a0efa1c.setIcon(icon_02895c3d06cda0803eb1e2a8c8f06dac);
+            
+    
+            var marker_c3b1c7f602639d98fa322eb22280ee88 = L.marker(
+                [43.140982, 25.666523],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_a287b28349011bc873761954fdfe1894 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b0cd574b7495e71f0bd88f937bcf177c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acf0af7f1464cfc1c10cc430fc6ec9a5 = $(`<div id="html_acf0af7f1464cfc1c10cc430fc6ec9a5" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 58<br>     <b>Име:</b> Спирка "Енерго" посока В. Търново<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_b0cd574b7495e71f0bd88f937bcf177c.setContent(html_acf0af7f1464cfc1c10cc430fc6ec9a5);
+            
+        
+
+        marker_c3b1c7f602639d98fa322eb22280ee88.bindPopup(popup_b0cd574b7495e71f0bd88f937bcf177c)
+        ;
+
+        
+    
+    
+            marker_c3b1c7f602639d98fa322eb22280ee88.bindTooltip(
+                `<div>
+                     58 – Спирка "Енерго" посока В. Търново
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c3b1c7f602639d98fa322eb22280ee88.setIcon(icon_a287b28349011bc873761954fdfe1894);
+            
+    
+            var marker_9b32bf3a13680917e2dd964417735991 = L.marker(
+                [43.135111, 25.694486],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_8c556b5fe7a40051052ab8e7395b0a84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_857496da4c2336f0151b33b6fe6cd3c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bed14285cce6232bc710babd1609cb19 = $(`<div id="html_bed14285cce6232bc710babd1609cb19" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 59<br>     <b>Име:</b> Petrol and methane ELITE<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_857496da4c2336f0151b33b6fe6cd3c3.setContent(html_bed14285cce6232bc710babd1609cb19);
+            
+        
+
+        marker_9b32bf3a13680917e2dd964417735991.bindPopup(popup_857496da4c2336f0151b33b6fe6cd3c3)
+        ;
+
+        
+    
+    
+            marker_9b32bf3a13680917e2dd964417735991.bindTooltip(
+                `<div>
+                     59 – Petrol and methane ELITE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9b32bf3a13680917e2dd964417735991.setIcon(icon_8c556b5fe7a40051052ab8e7395b0a84);
+            
+    
+            var marker_ab356046ea1504068b019c3fdd0084c2 = L.marker(
+                [43.131685, 25.697367],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_527e059009bc9610fb2b9d9d0fa84991 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f7ce9f81c63a543a36353409ef6dd3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_073fefdfdd1a731c2b3470688691d272 = $(`<div id="html_073fefdfdd1a731c2b3470688691d272" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 60<br>     <b>Име:</b> Тахо ВЕНЦИ<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_4f7ce9f81c63a543a36353409ef6dd3d.setContent(html_073fefdfdd1a731c2b3470688691d272);
+            
+        
+
+        marker_ab356046ea1504068b019c3fdd0084c2.bindPopup(popup_4f7ce9f81c63a543a36353409ef6dd3d)
+        ;
+
+        
+    
+    
+            marker_ab356046ea1504068b019c3fdd0084c2.bindTooltip(
+                `<div>
+                     60 – Тахо ВЕНЦИ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ab356046ea1504068b019c3fdd0084c2.setIcon(icon_527e059009bc9610fb2b9d9d0fa84991);
+            
+    
+            var marker_ed007417e76e24d015dad82d3bb7bb3f = L.marker(
+                [43.12872, 25.700005],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_05a6b21a5e7b61c749d32f73fccfaccf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1d22e9e0ab2a78ea0f9177ab3ee97d01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7294a6ac65a2604a3d5ef902156e57d = $(`<div id="html_d7294a6ac65a2604a3d5ef902156e57d" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 61<br>     <b>Име:</b> Mitnichesko Byuro<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_1d22e9e0ab2a78ea0f9177ab3ee97d01.setContent(html_d7294a6ac65a2604a3d5ef902156e57d);
+            
+        
+
+        marker_ed007417e76e24d015dad82d3bb7bb3f.bindPopup(popup_1d22e9e0ab2a78ea0f9177ab3ee97d01)
+        ;
+
+        
+    
+    
+            marker_ed007417e76e24d015dad82d3bb7bb3f.bindTooltip(
+                `<div>
+                     61 – Mitnichesko Byuro
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ed007417e76e24d015dad82d3bb7bb3f.setIcon(icon_05a6b21a5e7b61c749d32f73fccfaccf);
+            
+    
+            var marker_91854b777c0c726460626de40c726c43 = L.marker(
+                [43.130325, 25.69861],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_48b2578c776b874aa462ebb70804c39c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_96b2cb3e22f7a58e2ee774fdd2dfc4d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73a733b9f595fe7b2788cc86bb54f7c3 = $(`<div id="html_73a733b9f595fe7b2788cc86bb54f7c3" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 62<br>     <b>Име:</b> Viktoria-05<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_96b2cb3e22f7a58e2ee774fdd2dfc4d5.setContent(html_73a733b9f595fe7b2788cc86bb54f7c3);
+            
+        
+
+        marker_91854b777c0c726460626de40c726c43.bindPopup(popup_96b2cb3e22f7a58e2ee774fdd2dfc4d5)
+        ;
+
+        
+    
+    
+            marker_91854b777c0c726460626de40c726c43.bindTooltip(
+                `<div>
+                     62 – Viktoria-05
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_91854b777c0c726460626de40c726c43.setIcon(icon_48b2578c776b874aa462ebb70804c39c);
+            
+    
+            var marker_5152989e316d642ab2d8218bc271477b = L.marker(
+                [43.132114, 25.697019],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_46f421f57e0a45b9ce9834216623a038 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fdd466727bbd7d83388e3a7d2e57aad0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87b97b539b99bd2d10e749e180a201b8 = $(`<div id="html_87b97b539b99bd2d10e749e180a201b8" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 63<br>     <b>Име:</b> Тахо ВЕНЦИ<br>     <b>Достъпност:</b> Да     </div>`)[0];
+                popup_fdd466727bbd7d83388e3a7d2e57aad0.setContent(html_87b97b539b99bd2d10e749e180a201b8);
+            
+        
+
+        marker_5152989e316d642ab2d8218bc271477b.bindPopup(popup_fdd466727bbd7d83388e3a7d2e57aad0)
+        ;
+
+        
+    
+    
+            marker_5152989e316d642ab2d8218bc271477b.bindTooltip(
+                `<div>
+                     63 – Тахо ВЕНЦИ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5152989e316d642ab2d8218bc271477b.setIcon(icon_46f421f57e0a45b9ce9834216623a038);
+            
+    
+            var marker_566f18b728585b0f53a8e5731bf932f2 = L.marker(
+                [43.134923, 25.69311],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_edb3ec5d34b2ee2370a4dd9daae9f2ac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_822b0d235b8813779821867e41ab1950 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f27c0912d4a07528e643e5553fe5c6f = $(`<div id="html_0f27c0912d4a07528e643e5553fe5c6f" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 64<br>     <b>Име:</b> Bulmark<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_822b0d235b8813779821867e41ab1950.setContent(html_0f27c0912d4a07528e643e5553fe5c6f);
+            
+        
+
+        marker_566f18b728585b0f53a8e5731bf932f2.bindPopup(popup_822b0d235b8813779821867e41ab1950)
+        ;
+
+        
+    
+    
+            marker_566f18b728585b0f53a8e5731bf932f2.bindTooltip(
+                `<div>
+                     64 – Bulmark
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_566f18b728585b0f53a8e5731bf932f2.setIcon(icon_edb3ec5d34b2ee2370a4dd9daae9f2ac);
+            
+    
+            var marker_b451127f383383cabcc7bc95645e304b = L.marker(
+                [43.133254, 25.692179],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_2a2392e74adb089976ff2f34bc4d30b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fa27b68c0c4f00a058de2c8d08bde0e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66d56c8b36dfc57f3b5090e1a2ab00fe = $(`<div id="html_66d56c8b36dfc57f3b5090e1a2ab00fe" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 65<br>     <b>Име:</b> Автокомплекс Пеневи<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_fa27b68c0c4f00a058de2c8d08bde0e4.setContent(html_66d56c8b36dfc57f3b5090e1a2ab00fe);
+            
+        
+
+        marker_b451127f383383cabcc7bc95645e304b.bindPopup(popup_fa27b68c0c4f00a058de2c8d08bde0e4)
+        ;
+
+        
+    
+    
+            marker_b451127f383383cabcc7bc95645e304b.bindTooltip(
+                `<div>
+                     65 – Автокомплекс Пеневи
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b451127f383383cabcc7bc95645e304b.setIcon(icon_2a2392e74adb089976ff2f34bc4d30b1);
+            
+    
+            var marker_1ca07816ced7c2bc1dbddc955c4aa292 = L.marker(
+                [43.132477, 25.691385],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_149f61546e380705c61faa6359cccb2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e526f4211ba67649ea233a49078383f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2c1536839be3e63e00ca81b7e71242b = $(`<div id="html_b2c1536839be3e63e00ca81b7e71242b" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 66<br>     <b>Име:</b> ДАРМ ООД<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_5e526f4211ba67649ea233a49078383f.setContent(html_b2c1536839be3e63e00ca81b7e71242b);
+            
+        
+
+        marker_1ca07816ced7c2bc1dbddc955c4aa292.bindPopup(popup_5e526f4211ba67649ea233a49078383f)
+        ;
+
+        
+    
+    
+            marker_1ca07816ced7c2bc1dbddc955c4aa292.bindTooltip(
+                `<div>
+                     66 – ДАРМ ООД
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1ca07816ced7c2bc1dbddc955c4aa292.setIcon(icon_149f61546e380705c61faa6359cccb2d);
+            
+    
+            var marker_69251337c7509a70107946d9160026a7 = L.marker(
+                [43.129813, 25.689635],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_c3f674f050e1d6db5f33a9e35f4d79d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0ba9307e9c40ec96a4a6b0255a6a622c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f54ba887dd15651026b5c9a226b8c61f = $(`<div id="html_f54ba887dd15651026b5c9a226b8c61f" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 67<br>     <b>Име:</b> Р А 03 Боби ООД<br>     <b>Достъпност:</b> Да     </div>`)[0];
+                popup_0ba9307e9c40ec96a4a6b0255a6a622c.setContent(html_f54ba887dd15651026b5c9a226b8c61f);
+            
+        
+
+        marker_69251337c7509a70107946d9160026a7.bindPopup(popup_0ba9307e9c40ec96a4a6b0255a6a622c)
+        ;
+
+        
+    
+    
+            marker_69251337c7509a70107946d9160026a7.bindTooltip(
+                `<div>
+                     67 – Р А 03 Боби ООД
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_69251337c7509a70107946d9160026a7.setIcon(icon_c3f674f050e1d6db5f33a9e35f4d79d3);
+            
+    
+            var marker_b32407c6971a0eca92a229d61a1822d3 = L.marker(
+                [43.128225, 25.689023],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_03ec7c7ebae775c8c95905bdd6329c41 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee645ccdf169e33b45887f96e6a3f2a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8bd98a1eeb8661e99bdf4d2ccdb6149 = $(`<div id="html_e8bd98a1eeb8661e99bdf4d2ccdb6149" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 68<br>     <b>Име:</b> ŠKODA Център Горна Оряховица<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_ee645ccdf169e33b45887f96e6a3f2a5.setContent(html_e8bd98a1eeb8661e99bdf4d2ccdb6149);
+            
+        
+
+        marker_b32407c6971a0eca92a229d61a1822d3.bindPopup(popup_ee645ccdf169e33b45887f96e6a3f2a5)
+        ;
+
+        
+    
+    
+            marker_b32407c6971a0eca92a229d61a1822d3.bindTooltip(
+                `<div>
+                     68 – ŠKODA Център Горна Оряховица
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b32407c6971a0eca92a229d61a1822d3.setIcon(icon_03ec7c7ebae775c8c95905bdd6329c41);
+            
+    
+            var marker_a383870cb8edcb1d9015c4e0c996a5fb = L.marker(
+                [43.128974, 25.686566],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_649c97226ae8b678d9eb90f13c068411 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e5e0391100e5652f01236ad9eb433296 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_494bad50f5b0b623e95caa269d2aa251 = $(`<div id="html_494bad50f5b0b623e95caa269d2aa251" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 69<br>     <b>Име:</b> PTG Vasil Levski<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_e5e0391100e5652f01236ad9eb433296.setContent(html_494bad50f5b0b623e95caa269d2aa251);
+            
+        
+
+        marker_a383870cb8edcb1d9015c4e0c996a5fb.bindPopup(popup_e5e0391100e5652f01236ad9eb433296)
+        ;
+
+        
+    
+    
+            marker_a383870cb8edcb1d9015c4e0c996a5fb.bindTooltip(
+                `<div>
+                     69 – PTG Vasil Levski
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a383870cb8edcb1d9015c4e0c996a5fb.setIcon(icon_649c97226ae8b678d9eb90f13c068411);
+            
+    
+            var marker_19e08dbefe8e6f81b04c4565b78c7e1a = L.marker(
+                [43.128714, 25.684151],
+                {
+}
+            ).addTo(map_7dde82766036584f8fbcd293e614341b);
+        
+    
+            var icon_74dc672636670ec06155a06d4b484a3f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2ef85251eaa204550913558d53e0d162 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40e9bdd4660a5ced2c189ac0dc5fdc5e = $(`<div id="html_40e9bdd4660a5ced2c189ac0dc5fdc5e" style="width: 100.0%; height: 100.0%;">     <b>Спирка №:</b> 70<br>     <b>Име:</b> Spa Hotel Complex Ambaritsa<br>     <b>Достъпност:</b> Не     </div>`)[0];
+                popup_2ef85251eaa204550913558d53e0d162.setContent(html_40e9bdd4660a5ced2c189ac0dc5fdc5e);
+            
+        
+
+        marker_19e08dbefe8e6f81b04c4565b78c7e1a.bindPopup(popup_2ef85251eaa204550913558d53e0d162)
+        ;
+
+        
+    
+    
+            marker_19e08dbefe8e6f81b04c4565b78c7e1a.bindTooltip(
+                `<div>
+                     70 – Spa Hotel Complex Ambaritsa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_19e08dbefe8e6f81b04c4565b78c7e1a.setIcon(icon_74dc672636670ec06155a06d4b484a3f);
+            
+</script>
+</html>
