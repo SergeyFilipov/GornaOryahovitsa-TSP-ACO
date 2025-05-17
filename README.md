@@ -155,12 +155,14 @@ After finding optimal routes via ACO, the project generates **interactive HTML m
 ### 📤 Output files:
 - `aco_distance_map.html` – optimized by distance (blue line)
 - `aco_duration_map.html` – optimized by time (green line)
-- 
-🖼️ ACO Route – by Distance:
+
+### 🖼️ ACO Route – by Distance:
 ![ACO Distance](aco_distance_map.png)
 
-🖼️ ACO Route – by Duration:
+### 🖼️ ACO Route – by Duration:
 ![ACO Duration](aco_duration_map.png)
+
+---
 
 ## 🧭 ACO per Cluster (Local Optimization)
 
@@ -182,14 +184,14 @@ Instead of one global route, this block applies **ACO separately within each KMe
 - `combined_routes_distance.html` – per-cluster shortest routes (color-coded)
 - `combined_routes_duration.html` – per-cluster fastest routes (color-coded)
 
-- 🖼️ Clustered Route – by Distance:
+### 🖼️ Clustered Route – by Distance:
 ![ACO Cluster Distance](combined_routes_distance.png)
 
-🖼️ Clustered Route – by Duration:
+### 🖼️ Clustered Route – by Duration:
 ![ACO Cluster Duration](combined_routes_duration.png)
 
-
 🗺️ These maps help visualize how buses could operate in parallel zones of the city, optimizing routes **locally**.
+
 
 ## ⚡ Greedy TSP Route Optimization
 
