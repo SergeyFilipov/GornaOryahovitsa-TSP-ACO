@@ -155,6 +155,12 @@ After finding optimal routes via ACO, the project generates **interactive HTML m
 ### 📤 Output files:
 - `aco_distance_map.html` – optimized by distance (blue line)
 - `aco_duration_map.html` – optimized by time (green line)
+- 
+🖼️ ACO Route – by Distance:
+![ACO Distance](aco_distance_map.png)
+
+🖼️ ACO Route – by Duration:
+![ACO Duration](aco_duration_map.png)
 
 ## 🧭 ACO per Cluster (Local Optimization)
 
@@ -175,6 +181,13 @@ Instead of one global route, this block applies **ACO separately within each KMe
 ### 📤 Output files:
 - `combined_routes_distance.html` – per-cluster shortest routes (color-coded)
 - `combined_routes_duration.html` – per-cluster fastest routes (color-coded)
+
+- 🖼️ Clustered Route – by Distance:
+![ACO Cluster Distance](combined_routes_distance.png)
+
+🖼️ Clustered Route – by Duration:
+![ACO Cluster Duration](combined_routes_duration.png)
+
 
 🗺️ These maps help visualize how buses could operate in parallel zones of the city, optimizing routes **locally**.
 
@@ -201,5 +214,17 @@ This block implements a **Greedy heuristic algorithm** for solving the TSP – s
 - `greedy_distance_map.html` – route by distance (purple line)
 - `greedy_duration_map.html` – route by time (orange line)
 
+🖼️ Greedy Route – by Distance:
+![Greedy Distance](greedy_distance_map.png)
+
+🖼️ Greedy Route – by Duration:
+![Greedy Duration](greedy_duration_map.png)  
+
 ⚠️ Note: The Greedy solution is quick, but often suboptimal – routes are longer and less structured compared to ACO.
 
+## 📊 ACO vs. Greedy Comparison
+
+This chart summarizes the performance difference between the two algorithms.
+
+🖼️ ACO vs. Greedy TSP:
+![ACO vs Greedy](ACO%20vs.%20Greedy%20TSP.png)
