@@ -228,5 +228,5 @@ This block implements a **Greedy heuristic algorithm** for solving the TSP – s
 
 This chart summarizes the performance difference between the two algorithms.
 
-🖼️ ACO vs. Greedy TSP:
-![ACO vs Greedy](ACO%20vs.%20Greedy%20TSP.png)
+📂 [Download Excel file: ACO_vs_Greedy_TSP_Comparison.xlsx](./ACO_vs_Greedy_TSP_Comparison.xlsx)
+
